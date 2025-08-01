@@ -1,0 +1,52 @@
+<h1>STUDENT FORM</h1>
+<form>
+  <table>
+    <tr>
+      <td><label for="sname">Student name:</label></td>
+      <td><input type="text" id="sname" name="sname"></td>
+    </tr>
+    
+    <tr>
+      <td><label for="sid">Roll number:</label></td>
+      <td><input type="text" id="sid" name="sid" value="1601-23-737-"></td>
+    </tr>
+    
+    <tr>
+      <td><label for="semail">Email:</label></td>
+      <td><input type="email" id="semail" name="semail" value="@gmail.com"></td>
+    </tr>
+    
+    <tr>
+      <td>Gender:</td>
+      <td>
+        <input type="radio" id="female" name="Gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="male" name="Gender" value="male">
+        <label for="male">Male</label>
+      </td>
+    </tr>
+    
+    <tr>
+      <td><label for="Branch">Branch:</label></td>
+      <td>
+        <input type="text" id="Branch" name="Branch" list="BranchList">
+        <datalist id="BranchList">
+          <option value="Computer Science">
+          <option value="Information Technology">
+          <option value="ECE">
+          <option value="EEE">
+          <option value="Chemical">
+        </datalist>
+      </td>
+    </tr>
+
+    <tr>
+      <td colspan="2" style="text-align:center;">
+        <input type="submit" value="Submit">
+      </td>
+    </tr>
+  </table>
+</form>
+
+</body>
+</html>
